@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
+    <title>Welcome | Messages</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
@@ -11,7 +11,7 @@
   <body>
     <div class="top-bar">
       <div class="row">
-       <a href="index.html"> <img src="img/logo.png"></a>
+     <a href="index.html"> <img src="img/logo.png"></a>
         <a href="login.html" class="button pull-right add-btn" data-reveal-id="add-form">Add Project</a>
         <a href="login.html" class="button pull-right logout-btn">Logout</a>
 
@@ -50,13 +50,12 @@
                         </div>
                     </form>  
         </div>
-
       </div>
     </div>
 
     <div class="row icons">
       <div class="large-2 small-12 columns">
-        <a href="index.html" class="item active">
+        <a href="index.html" class="item">
           <i class="fa fa-tasks"></i>
           <label>Projects</label>
         </a>
@@ -74,7 +73,7 @@
         </a>
       </div>
       <div class="large-2 small-12 columns">
-        <a href="messages.html" class="item">
+        <a href="messages.html" class="item active">
           <i class="fa fa-send-o"></i>
           <label>Messages</label>
         </a>
@@ -92,42 +91,34 @@
 
     <div class="row">
       <div class="large-8 columns white-bg">
-          <h3>Latest Projects</h3>
+          <h3>Inbox</h3>
           <table>
             <thead>
               <tr>
-                <th width="300">Name</th>
-                <th>Category</th>
-                <th>Start</th>
+                <th width="500">Subject</th>
+                <th>From</th>
                 <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Project H</td>
-                <td>Web Development</td>
-                <td>04/15/2015</td>
+                <td>Hello There!</td>
+                <td>jdoe@gmail.com</td>
                 <td><a class="button tiny" href="project.html">Launch</a></td>
               </tr>
               <tr>
-                <td>Project One</td>
-                <td>Web Design</td>
-                <td>03/15/2015</td>
+                <td>How Are You?</td>
+                <td>tsmith@yahoo.com</td>
                 <td><a class="button tiny" href="project.html">Launch</a></td>
               </tr>
-              <tr>
-                <td>Project Two</td>
-                <td>Web Development</td>
-                <td>02/16/2015</td>
-                <td><a class="button tiny" href="project.html">Launch</a></td>
-              </tr>
+            
             </tbody>
           </table>
       </div>
       <div class="large-3 columns primary-bg">
         <form>
           <label>
-            Search Projects
+            Search Inbox
             <input type="text">
           </label>
         </form>

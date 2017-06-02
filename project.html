@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
+    <title>Welcome | Project Details</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
@@ -11,7 +11,7 @@
   <body>
     <div class="top-bar">
       <div class="row">
-       <a href="index.html"> <img src="img/logo.png"></a>
+        <img src="img/logo.png">
         <a href="login.html" class="button pull-right add-btn" data-reveal-id="add-form">Add Project</a>
         <a href="login.html" class="button pull-right logout-btn">Logout</a>
 
@@ -50,7 +50,6 @@
                         </div>
                     </form>  
         </div>
-
       </div>
     </div>
 
@@ -92,37 +91,71 @@
 
     <div class="row">
       <div class="large-8 columns white-bg">
-          <h3>Latest Projects</h3>
-          <table>
-            <thead>
-              <tr>
-                <th width="300">Name</th>
-                <th>Category</th>
-                <th>Start</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Project H</td>
-                <td>Web Development</td>
-                <td>04/15/2015</td>
-                <td><a class="button tiny" href="project.html">Launch</a></td>
-              </tr>
-              <tr>
-                <td>Project One</td>
-                <td>Web Design</td>
-                <td>03/15/2015</td>
-                <td><a class="button tiny" href="project.html">Launch</a></td>
-              </tr>
-              <tr>
-                <td>Project Two</td>
-                <td>Web Development</td>
-                <td>02/16/2015</td>
-                <td><a class="button tiny" href="project.html">Launch</a></td>
-              </tr>
-            </tbody>
-          </table>
+          <h3>Project H <a class="button tiny pull-right" href="#" data-reveal-id="edit-form">Edit</a></h3>
+
+          <div id="edit-form" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h3>Edit Project</h3>
+            <form>
+                        <div class="row">
+                            <div class="large-12 columns">
+                              <label>Project Name
+                                <input type="text" value="Project H"/>
+                              </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns">
+                              <label>Category
+                                <select>
+                                    <option selected>Web Development</option>
+                                    <option>Web Design</option>
+                                    <option>Search Engine Optimization</option>
+                                  </select>
+                              </label>
+                            </div>
+                          </div>
+                        <div class="row">
+                            <div class="large-12 columns">
+                              <label>Notes
+                                <textarea>This is where the project notes would go</textarea>
+                              </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-12 columns">                  
+                                <input type="submit" class="button" value="Save project" />
+                            </div>
+                        </div>
+                    </form>  
+          </div>
+
+          <strong>Status: </strong> 65% Complete (<a href="#" data-reveal-id="status">Change</a>)
+
+          <div id="status" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <div class="range-slider" data-slider>
+                        <span class="range-slider-handle" role="slider" tabindex="0"></span>
+                        <span class="range-slider-active-segment"></span>
+                        <input type="hidden">
+                      </div>
+          </div>
+
+          <div class="progress large-12 success round">
+            <span class="meter" style="width: 65%"></span>
+          </div>
+
+          <br>
+
+          <div>
+            <strong>Category: </strong> Web Development
+          </div>
+
+          <br>
+
+          <div>
+            <h3>Notes: </h3>
+            <p>This is where the notes go</p>
+          </div>
+       
       </div>
       <div class="large-3 columns primary-bg">
         <form>
