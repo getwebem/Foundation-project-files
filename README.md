@@ -2,11 +2,11 @@
 ### Technologies Used
 #### HTML5, CSS3, Foundation 5, Font-awesome, Sass
  - Run  :  `git clone https://github.com/getwebem/projectsApp.git`
- - Run :  `npm install -g bower grunt-cli`
  - Run :  `cd projectsApp`
- - Run :  `gem install foundation`
- - Run :  `gem install compass`
- - Run :  `npm install bundle`
+ - Run :  `npm install -g bower grunt-cli`
+ - Run :  `bower install foundation`
+ - Run :  `bower install compass`
+ - Run :  `bower install bundle`
  - Run :  `Brackets .`
  - Run :  `bundle exec compass watch`
  - Open :  `Index.html`
