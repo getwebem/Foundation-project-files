@@ -1,29 +1,31 @@
-# Foundation Compass Template
+# A CMS Project Holder
+### Technologies Used
+#### HTML5, CSS3, Foundation 5, Font-awesome, Sass
+ - Run  :  `git clone https://github.com/getwebem/projectsApp.git`
+ - Run  :  `cd projectsApp`
+ - Run :  `Brackets .`
+ - Open :  `Index.html`
+ - Browser:  `Live Preview`  
 
-The easiest way to get started with Foundation + Compass.
+<br/><br/>
+<br/><br/>
+<br/><br/>
+![pic1]()
+<br/><br/>
 
-## Requirements
+<br/><br/>
+![pic2]()
+<br/><br/>
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+<br/><br/>
+![pic3]()
+<br/><br/>
 
-## Quickstart
+<br/><br/>
+![pic4]()
+<br/><br/>
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+<br/><br/>
+![pic5]()
+<br/><br/>
 
-```bash
-bundle exec compass watch
-```
-
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
-```
