@@ -4,9 +4,7 @@
  - $   :  `git clone https://github.com/getwebem/Foundation-project-files.git`
  - $  :  `cd Foundation-project-files`
  - $  :  `npm install -g bower g t-cli`
- - $  :  `bower install foundation`
- - $  :  `bower install compass`
- - $  :  `bower install bundle`
+ - $  :  `bower install`
  - $  :  `Brackets .`
  - $  :  `bundle exec compass watch`
  - Open :  `Index.html`
